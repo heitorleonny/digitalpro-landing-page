@@ -47,7 +47,7 @@ const Contact = ()=> {
                                 </label>
                                 <input type="text" 
                                 name="nome"
-                                value={FormData.nome}
+                                value={formData.nome}
                                 onChangeCapture={handleInputChange}
                                 required
                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
